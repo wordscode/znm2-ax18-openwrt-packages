@@ -16,3 +16,7 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+sudo apt update
+sudo apt install libfuse-dev
+
+echo 'src-git small8 https://github.com/kenzok8/small-package' >>feeds.conf.default
